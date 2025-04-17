@@ -1,4 +1,4 @@
-```markdown
+
 # SAMed-SAR-RARP50 User Guide
 
 This guide will help you set up the environment and run the project.
