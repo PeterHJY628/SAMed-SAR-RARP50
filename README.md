@@ -60,7 +60,7 @@ python SAR_Train.py \
   --img_size 512 \                  # Input resolution for the image encoder
   --batch_size 64 \                 # Batch size per GPU (adjust to fit your memory)
   --max_epochs 100 \                # Total number of training epochs
-  --base_lr 0.001 \                 # Base learning rate for segmentation network
+  --base_lr 0.0005 \                 # Base learning rate for segmentation network
   --ckpt checkpoints/sam_vit_b_01ec64.pth \  # Pretrained SAM checkpoint
   --lora_ckpt results/Endo_best.pt \        # Path to save/load LoRA weights
   --rank 6 \                        # LoRA rank hyperparameter
