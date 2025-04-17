@@ -5,7 +5,7 @@ This guide will help you set up the environment and run the project.
 
 ---
 
-## 1. Clone the repository
+## 1. Clone the repository and configure conda environment according to requirements.txt
 
 ```bash
 git clone <repository_url>
