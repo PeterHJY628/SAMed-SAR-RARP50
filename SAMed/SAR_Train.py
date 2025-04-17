@@ -771,7 +771,7 @@ def main():
 # ds = SegmentationDataset(transform_img=transform_img, transform_mask=transform_mask, istrain=True)
 
     train_dataset = SegmentationDataset(root_dir=args.data_path, subset='Train', low_res=128, transform_img=transform_img, transform_mask=transform_mask, istrain=True)
-    test_dataset = SegmentationDataset(root_dir=args.data_path, subset='Test', low_res=128, transform_img=transform_img, transform_mask=transform_mask)
+    test_dataset = SegmentationDataset(root_dir=args.data_path, subset='Validate', low_res=128, transform_img=transform_img, transform_mask=transform_mask)
     trainloader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True, num_workers=2)
     testloader = DataLoader(test_dataset, batch_size=args.batch_size, shuffle=False, num_workers=2)
     print('Training on:', device, 'train sample size:', len(train_dataset), 'test sample size:', len(test_dataset), 'batch:', args.batch_size)
