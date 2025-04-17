@@ -33,8 +33,7 @@ data/
 Extract frames from videos at 60Hz using `Frame_extraction.py`:
 
 ```bash
-python Frame_extraction.py --input_dir data/Train --output_dir frames/Train --fps 60
-python Frame_extraction.py --input_dir data/Test --output_dir frames/Test --fps 60
+python Frame_extraction.py --input_dir data/Train --output_dir your_path
 ```
 
 ## 4. Download pretrained weights
