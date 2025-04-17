@@ -1,0 +1,6 @@
+Segmentation Images Summary
+==========================
+
+Train dataset total frames: 9183
+Test dataset total frames: 3860
+Total frames (Train + Test): 13043
